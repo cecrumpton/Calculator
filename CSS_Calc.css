@@ -1,0 +1,70 @@
+body {
+  text-align: center;
+  color: #000;
+  background-color: #00aacc;
+  font-family: "Indie Flower", cursive, sans-serif;
+  margin: 10px;
+}
+
+h1 {
+  color: #0000aa;
+  margin: 20px;
+}
+
+#display {
+  background-color: #44ffff;
+  border-radius: 3px;
+  padding: 2px;
+  font-size: 24px;
+  font-family: "Nova Mono", monospace, sans-serif;
+}
+
+button {
+  font-family: "Nova Mono", monospace, sans-serif;
+}
+
+.btn-md {
+  margin: 2px 1px;
+  padding: 10px 20px;
+  font-size: 20px;
+}
+
+.clearButton {
+  padding: 10px 45px;
+}
+
+.zeroButton {
+  padding: 10px 50px;
+}
+
+.undoButton {
+  padding: 10px 17px;
+}
+
+#calcContainer {
+  display: table;
+  border: solid black;
+  padding: 15px 10px 10px 10px;
+  margin: auto;
+  background-color: #0044aa;
+  border-radius: 10px;
+  /*box-shadow: 2px 2px 5px #006;*/
+}
+
+#tableRow1 {
+  display: table-row;
+}
+
+#tableRow2 {
+  display: table-row;
+}
+
+#displayBox {
+  display: table-cell;
+  vertical-align: top;
+}
+
+#buttons {
+  display: table-cell;
+  vertical-align: top;
+}

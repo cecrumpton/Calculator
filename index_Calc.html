@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Javascript Calculator</title>
+
+  <!--Google Font-->
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Nova+Mono" rel="stylesheet">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
+  <!--Font Awesome-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
+
+  <!-- Local CSS file-->
+  <link rel="stylesheet" href="CSS_Calc.css">
+
+</head>
+<body>
+  <h1>JavaScript Calculator!</h1>
+  <div id="calcContainer">
+    <div id="tableRow1">
+      <div id="displayBox">
+  <p id="display">0</p>
+      </div>
+    </div>
+    <div id="tableRow2">
+      <div id="buttons">
+  <div id="row1">
+    <button class="btn btn-primary btn-md clearButton" onclick="clearButton()"><i class="fa fa-eraser" aria-hidden="true"></i></button>
+    <button class="btn btn-primary btn-md undoButton" onclick="undoButton()"><i class="fa fa-undo" aria-hidden="true"></i></button>
+    <button class="btn btn-primary btn-md" onclick="add()">+</button>
+  </div>
+  <div id="row2">
+    <button class="btn btn-primary btn-md" onclick="seven()">7</button>
+    <button class="btn btn-primary btn-md" onclick="eight()">8</button>
+    <button class="btn btn-primary btn-md" onclick="nine()">9</button>
+    <button class="btn btn-primary btn-md" onclick="subtract()">-</button>
+  </div>
+  <div id="row3">
+    <button class="btn btn-primary btn-md" onclick="four()">4</button>
+    <button class="btn btn-primary btn-md" onclick="five()">5</button>
+    <button class="btn btn-primary btn-md" onclick="six()">6</button>
+    <button class="btn btn-primary btn-md" onclick="multiply()">*</button>
+  </div>
+  <div id="row4">
+    <button class="btn btn-primary btn-md" onclick="one()">1</button>
+    <button class="btn btn-primary btn-md" onclick="two()">2</button>
+    <button class="btn btn-primary btn-md" onclick="three()">3</button>
+    <button class="btn btn-primary btn-md" onclick="divide()">/</button>
+  </div>
+  <div id="row5">
+    <button class="btn btn-primary btn-md zeroButton" onclick="zero()">0</button>
+    <button class="btn btn-primary btn-md" onclick="decimal()">.</button>
+    <button class="btn btn-primary btn-md" onclick="equals()">=</button>
+  </div>
+      </div> <!--end buttons-->
+    </div> <!--end tableRow2-->
+  </div> <!--end calc container-->
+
+
+  <!-- Jquery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+  <!--Local JavaScript file-->
+  <script src="JS_Calc.js"></script>
+
+</body>
+</html>
